@@ -33,6 +33,10 @@
             this.tbPasswords = new System.Windows.Forms.TextBox();
             this.tbLogin = new System.Windows.Forms.TextBox();
             this.btnActualPrice = new System.Windows.Forms.Button();
+            this.lblVsegoRazdelov = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblRazdel = new System.Windows.Forms.Label();
+            this.lblNamePosition = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label2
@@ -70,7 +74,7 @@
             // 
             // btnActualPrice
             // 
-            this.btnActualPrice.Location = new System.Drawing.Point(166, 25);
+            this.btnActualPrice.Location = new System.Drawing.Point(142, 25);
             this.btnActualPrice.Margin = new System.Windows.Forms.Padding(2);
             this.btnActualPrice.Name = "btnActualPrice";
             this.btnActualPrice.Size = new System.Drawing.Size(126, 45);
@@ -79,11 +83,51 @@
             this.btnActualPrice.UseVisualStyleBackColor = true;
             this.btnActualPrice.Click += new System.EventHandler(this.btnActualPrice_Click);
             // 
+            // lblVsegoRazdelov
+            // 
+            this.lblVsegoRazdelov.AutoSize = true;
+            this.lblVsegoRazdelov.Location = new System.Drawing.Point(240, 72);
+            this.lblVsegoRazdelov.Name = "lblVsegoRazdelov";
+            this.lblVsegoRazdelov.Size = new System.Drawing.Size(13, 13);
+            this.lblVsegoRazdelov.TabIndex = 27;
+            this.lblVsegoRazdelov.Text = "0";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(215, 72);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(19, 13);
+            this.label5.TabIndex = 26;
+            this.label5.Text = "из";
+            // 
+            // lblRazdel
+            // 
+            this.lblRazdel.AutoSize = true;
+            this.lblRazdel.Location = new System.Drawing.Point(187, 72);
+            this.lblRazdel.Name = "lblRazdel";
+            this.lblRazdel.Size = new System.Drawing.Size(13, 13);
+            this.lblRazdel.TabIndex = 25;
+            this.lblRazdel.Text = "0";
+            // 
+            // lblNamePosition
+            // 
+            this.lblNamePosition.AutoSize = true;
+            this.lblNamePosition.Location = new System.Drawing.Point(143, 72);
+            this.lblNamePosition.Name = "lblNamePosition";
+            this.lblNamePosition.Size = new System.Drawing.Size(38, 13);
+            this.lblNamePosition.TabIndex = 24;
+            this.lblNamePosition.Text = "Товар";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(311, 109);
+            this.ClientSize = new System.Drawing.Size(311, 150);
+            this.Controls.Add(this.lblVsegoRazdelov);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblRazdel);
+            this.Controls.Add(this.lblNamePosition);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbPasswords);
@@ -103,6 +147,10 @@
         private System.Windows.Forms.TextBox tbPasswords;
         private System.Windows.Forms.TextBox tbLogin;
         private System.Windows.Forms.Button btnActualPrice;
+        private System.Windows.Forms.Label lblVsegoRazdelov;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblRazdel;
+        private System.Windows.Forms.Label lblNamePosition;
     }
 }
 
