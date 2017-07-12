@@ -7,3 +7,4 @@ D:\GitHub\DeleteDescriptionTovarB18\DeleteDescriptionTovarB18\obj\Debug\DeleteDe
 D:\GitHub\DeleteDescriptionTovarB18\DeleteDescriptionTovarB18\obj\Debug\DeleteDescriptionTovarB18.csproj.GenerateResource.Cache
 D:\GitHub\DeleteDescriptionTovarB18\DeleteDescriptionTovarB18\obj\Debug\DeleteDescriptionTovarB18.exe
 D:\GitHub\DeleteDescriptionTovarB18\DeleteDescriptionTovarB18\obj\Debug\DeleteDescriptionTovarB18.pdb
+D:\GitHub\DeleteDescriptionTovarB18\DeleteDescriptionTovarB18\bin\Debug\xNet.dll

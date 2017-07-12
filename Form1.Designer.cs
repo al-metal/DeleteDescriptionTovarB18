@@ -38,7 +38,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(79, 177);
+            this.label2.Location = new System.Drawing.Point(12, 48);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(48, 13);
             this.label2.TabIndex = 23;
@@ -47,7 +47,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(79, 138);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 13);
             this.label1.TabIndex = 22;
@@ -55,7 +55,7 @@
             // 
             // tbPasswords
             // 
-            this.tbPasswords.Location = new System.Drawing.Point(79, 193);
+            this.tbPasswords.Location = new System.Drawing.Point(12, 64);
             this.tbPasswords.Name = "tbPasswords";
             this.tbPasswords.Size = new System.Drawing.Size(125, 20);
             this.tbPasswords.TabIndex = 21;
@@ -63,34 +63,35 @@
             // 
             // tbLogin
             // 
-            this.tbLogin.Location = new System.Drawing.Point(79, 154);
+            this.tbLogin.Location = new System.Drawing.Point(12, 25);
             this.tbLogin.Name = "tbLogin";
             this.tbLogin.Size = new System.Drawing.Size(125, 20);
             this.tbLogin.TabIndex = 20;
             // 
             // btnActualPrice
             // 
-            this.btnActualPrice.Location = new System.Drawing.Point(259, 23);
+            this.btnActualPrice.Location = new System.Drawing.Point(166, 25);
             this.btnActualPrice.Margin = new System.Windows.Forms.Padding(2);
             this.btnActualPrice.Name = "btnActualPrice";
             this.btnActualPrice.Size = new System.Drawing.Size(126, 45);
             this.btnActualPrice.TabIndex = 17;
             this.btnActualPrice.Text = "Актуализировать сайт";
             this.btnActualPrice.UseVisualStyleBackColor = true;
+            this.btnActualPrice.Click += new System.EventHandler(this.btnActualPrice_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(515, 398);
+            this.ClientSize = new System.Drawing.Size(311, 109);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbPasswords);
             this.Controls.Add(this.tbLogin);
             this.Controls.Add(this.btnActualPrice);
-            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
