@@ -89,7 +89,13 @@ namespace DeleteDescriptionTovarB18
 
                 miniDescription = miniDescription.Replace("<p><br /></p>", "").Replace("</span></span>", "").Replace("<p></p>", "").Replace("</a>", "");
 
+                string fullText = tovarB18[8];
+                if (fullText.Contains("moto@bike18.ru"))
+                    fullText = fullText.Replace("Звоните! Или пишите на почту moto@bike18.ru", "");
+
                 tovarB18[7] = miniDescription;
+                tovarB18[8] = fullText;
+
                 nethouse.SaveTovar(cookie, tovarB18);
             }
 
